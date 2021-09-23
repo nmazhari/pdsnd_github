@@ -16,3 +16,4 @@ washington.csv
 
 ### Credits
 This project was done with the guidance from Udacity's Programming for Data Science nanodegree.
+The data used was provided by Motivate, a bikeshare system.
