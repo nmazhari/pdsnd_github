@@ -11,9 +11,9 @@ days_1 = ('monday', 'tuesday', 'wendesday', 'thursday', 'friday', 'saturday', 's
 def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     while True:
-        city = input("What city are you interested in? Choose from the following: Chicago, New York City, or Washington.\n").lower()
+        city = input("What city do you want to filter by? Choose from the following: Chicago, New York City, or Washington.\n").lower()
         if city not in CITY_DATA:
-            print("Uh-oh.. please make sure you chose one of the three cities and that you used the correct spelling.\n")
+            print("Kindly make sure you chose one of the three cities and that you used the correct spelling.\n")
             continue
         else:
             break
@@ -21,7 +21,7 @@ def get_filters():
     while True:
         month = input("What month do you to filter by? January, February, March, April, May, or June? If none, please type 'all'.\n").lower()
         if month not in months_1:
-            print("Uh-oh.. please make sure you either selected one of the six months or typed 'all' and are using the correct spelling")
+            print("Kindly make sure you either selected one of the six months or type 'all' and are using the correct spelling")
             continue
         else:
             break
@@ -29,7 +29,7 @@ def get_filters():
     while True:
         day = input("Which day do you want to filter by? Monday, Tuesday, Wednesday, etc. If none, please type 'all'.\n")
         if day not in days_1:
-            print("Uh-oh.. please make sure your spelling is correct!\n")
+            print("Kindly make sure your spelling is correct!\n")
             continue
         else:
             break
