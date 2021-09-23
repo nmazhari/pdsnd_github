@@ -7,10 +7,12 @@
 Udacity Project 2 - Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This is a python project which uses the Bikeshare data. It compares the system usage between three large cities: Chicago, New York City, and Washington, DC. with an interactive pythin script.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was done with the guidance from Udacity's Programming for Data Science nanodegree.
