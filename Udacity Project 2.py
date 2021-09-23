@@ -17,7 +17,7 @@ def get_filters():
             continue
         else:
             break
-
+""" this part of the function takes input from the user to filter by city"""
     while True:
         month = input("What month do you to filter by? January, February, March, April, May, or June? If none, please type 'all'.\n").lower()
         if month not in months_1:
@@ -25,7 +25,7 @@ def get_filters():
             continue
         else:
             break
-
+""" this part of the function takes input from the user to filter by month """
     while True:
         day = input("Which day do you want to filter by? Monday, Tuesday, Wednesday, etc. If none, please type 'all'.\n")
         if day not in days_1:
@@ -33,13 +33,16 @@ def get_filters():
             continue
         else:
             break
+""" this part of the function takes input from the user to filter by month """
 
     """
-    Asks user to specify a city, month, and day to analyze.
-    Returns:
+    the function defined above asks user to specify a city, month, and day to analyze.
+    It returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+    Refer to documentation below each part of the function for the specific purpose
+    of the part
     """
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
