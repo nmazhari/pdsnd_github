@@ -7,7 +7,7 @@
 Udacity Project 2 - Bikeshare
 
 ### Description
-This is a python project which uses the Bikeshare data. It compares the system usage between three large cities: Chicago, New York City, and Washington, DC. with an interactive pythin script.
+This is a python project which uses the Bikeshare data. It compares the system usage between three large cities: Chicago, New York City, and Washington, DC. with an interactive python script.
 
 ### Files used
 chicago.csv
